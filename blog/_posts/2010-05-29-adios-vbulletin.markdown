@@ -1,0 +1,97 @@
+---
+author: Esteban
+comments: true
+date: 2010-05-29 04:49:00+00:00
+layout: post
+link: https://itsaboutactitud.wordpress.com/2010/05/29/adios-vbulletin/
+slug: adios-vbulletin
+title: Adios vBulletin
+wordpress_id: 20
+---
+
+Este articulo sera una lata. Se los advierto.
+
+Escribir sobre vBulletin, hoy, es una lata.
+Tanta lata como la que aun me tiene aqui, quince minutos para las cuatro de la mañana, aun despierto, pegado a mi tarro, conectado y (amen por esto) con la estufa encendida y mucha leña haciendo fila para ser incinerada en combustion lenta.
+
+Y aun me quedan bastantes horas de trabajo. Decirle adios a vBulletin y convertirse a Invision es una tarea lenta y tediosa, sobre todo si tu sitio es el 7mo mas grande del mundo en trafico diario de personas, segun big-boards.com.
+Hoy no duermo, de seguro. Y da lo mismo, total, dormir es para maricas.
+
+Aprovechando el tiempo entonces, despues de perder harto de ese tiempo en el MW2 online en PSN, y otro poco de ese tiempo avanzando en el Mario Galaxy 2, comparto con ustedes algunos pensamientos respecto a la telenovela que vivimos todos los clientes de Jelsoft, cuando pasamos a ser clientes de Internet Brands (IB)... sin pedirlo.
+
+Tenia la intencion de hacer este articulo algo mas tecnico, con pruebas, todas esas que vi y vivi siendo cliente de Jelsoft y usuario habitual de vBulletin.com (vb.com) y vBulletin.org (vb.org). Pero la verdad es que ya son tantos meses de brutalidades de parte de IB al mando de vBulletin, que probablemente tendria que pagarles derechos por nombrarlos tantas veces.
+
+vBulletin era un producto excelente. El mejor en su clase: foro pagado. Un sistema para crear una comunidad "a la antigua", pero bastante moderno durante la aparicion de su version 3 y la posterior version 3.5.
+Tenian competencia, pero en popularidad (en aquellos años), estabilidad, seguridad, "codeo" y prestaciones, con modificaciones que no necesitaban modificar codigo del producto original, vBulletin era un monstruo.
+
+Lo mejor que tenian era quienes hacian el producto. Un puñado de Ingleses, "gringos", que amaban las comunidades y adoraban hacer bien su trabajo: un software para levantar foros, robusto, seguro, completo y poderoso. Extensible. Seguido de eso, y aun hoy en dia (lamentablemente), el segundo gran pilar que los sostiene es la comunidad de programadores haciendo y lanzando (de forma gratuita) sus modificaciones en vB.org.
+
+Pero por mucho que ames haciendo algo, todos tenemos un precio, y en cierto punto se quiebra tu amor a lo idilico, a tu utopia personal, y te conviertes en un amante de la estabilidad... y el dinero.
+
+Aqui aparecio el diablo, IB, que no es mas que una empresa que se dedica a comprar-levantar foros tematicos, y a pagarle a gente para que los modere, administre, potencie y reunan humanos en torno a esos foros especificos. Cantidad es bueno; cantidad son visitas, visitas son impresiones, impresiones es publicidad... y lucas.
+
+Entonces IB se compro vBulletin. Claro, si poseen una centena de foros tematicos (tienen montones), y todos corren la misma plataforma, y resulta que tienen plata para hacerlo, ¿por que no comprarse el software que usan ellos mismos para esos foros, y moverlo a la pinta de la empresa y sus necesidades?.
+
+En un principio, si no me equivoco, llego IB pero no hizo cambios en la estructura interna de Jelsoft y su modo de trabajo para lanzar nuevas versiones y mejoras a vBulletin. El unico cambio visible fue la partida de uno de los desarrolladores iniciales de Jelsoft, de los creadores de vBulletin; se fue, no sin antes ponerse de avatar en los foros de vBulletin, la misma "V" clasica que utilizaban los del staff de vBulletin, pero con una bolsa de dinero encima.
+
+Yo hubiese hecho lo mismo, ciertamente. Es que como ya les dije, todos tenemos un precio.
+Algunos pueden querer pretender no tenerlo, e intentaran convencerse de lo poderosos que son sus ideales y moral, pero lo cierto es que... yo jamas he hablado de dinero puntualmente cuando me refiero a un precio. Tu precio puede no ser en oro ni plata, pero lo tienes, sin duda.
+
+Eventualmente IB hizo lo que se sabia iba a hacer. A pesar de que declararon publicamente que no se meterian en el proceso de desarrollo de vBulletin, y que Jelsoft continuaria en Inglaterra (siendo IB una empresa gringa, de California especificamente), IB tomo lo que le correspondia y ordeno mover todo a California, a sus oficinas.
+
+Para ese entonces, los desarrolladores "clasicos" (algunos desde el genesis de vBulletin, otros desde vBulletin 2.0 en Jelsoft), ya nos tenian ansiosos, felices y espectantes por todas las novedades que dijeron se incluirian en vBulletin 4.0, la version que vendria luego de vBulletin 3.7.
+Un nuevo tema/estilo totalmente web 2.0, el fin de las tablas en el diseño, solo buen xhtml, divs y css. La reescritura completa del sistema, dejando de lado las clasicas funciones a las que estabamos acostumbrados, para pasar a un software MVC, lleno de Objetos, Classes y rutinas/protocolos limpios y ordenados. Vendria tambien por fin el deseado sistema de manejo de contenidos que dijeron alguna vez lanzarian para la version 3.x y nunca salio. Ahora si saldria con la version 4.x. Foros, blogs, tracker/manejo de proyectos, galerias/videos, sistema de contenidos... toda una suite en base a vBulletin. De verdad, lo que aqui leen es POCO para lo mucho que vimos y las espectativas que muchos ahi en vB.com teniamos respecto a lo que vendria gracias a vBulletin 4.x.
+
+Pero IB se llevo su chiche a casa, y puso un lider de proyecto nuevo (programacion), alla en California.
+Y entonces ocurrio la primera gran filtracion de informacion de IB. Un tema completo en pantallazos que se escapo de los foros de administracion en vB.com. Ahi indicaba, IB, el plan a seguir. El plan de IB.
+
+vBulletin se mueve a USA, los desarrolladores "clasicos" todos se van... de a poco (si, los sacarian paulatinamente), vBulletin 4.x no va a traer todo lo que dijo Jelsoft que traeria porque reescribir todo el sistema para hacerlo decente implicaba mucho tiempo, meses, y ellos querian mejoras ahora ya. En cambio entonces, recibiriamos actualizaciones a lo Microsoft: muchos parches, upgrades, "service pack" para nuestro software añadiendo de a poco lo que Jelsoft prometio.
+
+Se van los desarrolladores "clasicos", se va casi todo el soporte "clasico", se van los diseñadores "clasicos", y queda un ultimo eslabon a "lo clasico" que soporta estoicamente las criticas de la comunidad por lo bruto del manejo de clientes de IB. Siempre caballeros, los ex-Jelsoft estuvieron ahi para capacitar a la gente que tomo el control de vBulletin en todo lo que manejaban. Como desarrollaban, el sistema interno de svn, como hacer un lanzamiento de una nueva version, etc.
+
+Pero una vez idos todos los "clasicos", los condoros se apoderaron de vBulletin.
+
+Aparecio vBulletin 4.x solo disponible para ver online en vB.com, y entonces, vB.com estuvo abajo todo un dia. Si vBulletin ya era algo pesado, con la maravillosa idea de reescribir por partes y de a poco vBulletin 3, durante la rama de los 4.x para llegar al 5.x con algo "nuevo"... les paso la cuenta. El doble o triple de carga con cada script que corrias, sumado a la cantidad de visitas concurrentes, y estrenando un nuevo y triste sistema de rewrite para las URLs (que no tenia vBulletin 3.x)... **les paso la cuenta**.
+
+De pronto, todas las ideas anunciadas para vBulletin 4.x por Jelsoft se fueron a cresta. Las "nuevas" ideas de IB para vBulletin eran... copias de otro software para foros. Invision.
+Risa y pena me dio ver la barra lateral en el indice de los foros en vB.com el primer dia que upgradearon a 4.x. No duro mucho. Tuvieron que bajarla, porque... era muy pesada para el servidor.
+
+No podria nombrarles ahora la cantidad de problemas que hubo de ahi en adelante. Es que, de verdad, son muchos.
+
+Desarrolladores, soporte, diseñadores y colaboradores/programadores de modificaciones en vB.org, en sus blogs, en los mismos foros de vB.com, en twitter, en facebook,  lanzando avisos al aire sobre problemas de seguridad en vBulletin 4.x. Con ejemplos y todo, conceptos funcionales para "hackear" el nuevo vBulletin.
+
+Peor: IB lanza versiones para corregir esos problemas de seguridad, y al mismo tiempo, mete NUEVOS problemas de seguridad con sus versiones "parche".
+Desastre: incluyendo a vBulletin 3.x en aquel desorden protocolar de programacion, e incluyendo esos bugs de seguridad en la rama clasica, la que nosotros usabamos aun.
+
+Cambio de reglas en los precios. Ya no podias renovar tu licencia por 60 dolares, como lo hacias antes y cuando se te diera la gana (ni siquiera una vez al año; si no querias los nuevos features que ofrecian, no pagabas para actualizar no mas). Ahora, IB requeria un unico pago de una licencia para una rama de vBulletin, pago que se incremento claro. Pero... cuando apareciera una rama nueva, un vBulletin 5.x, debias pagar la licencia completa de nuevo. ¿El problema?: simple, ¿quien me asegura a mi que no van a lanzar un vBulletin 5.x tomando vBulletin 4.x y poniendole una caracteristica nueva, como por ejemplo: conexion a Facebook?. Al fin y al cabo, ellos mismos ponen los numeros de versiones y dicen cuando sale que cosa.
+
+Habiendo "crecido" con vBulletin, da rabia ver como IB se farreo la confianza de toda la clientela de vBulletin. Clientela que incluso, como yo, era capaz de recomendar a ojos cerrados aquel software a cualquiera que me preguntase "¿que uso para mi sitio?".
+
+Ironias de la vida. Aprendi de seguridad, exploits, validacion de datos, limpieza y "sanitizacion" de todo lo que envia el usuario a un software (web, script, php) con vBulletin hace años, desde su version 2.x (dos mil, dos mil y algo). Me encantaban sus data-managers y el GPC que disponias en el framework que habian hecho en php.
+A vBulletin ahora se lo estaba comiendo la torpeza de IB, al poner desarrolladores que no conocian vBulletin al mando del desarrollo del mismo software.
+
+Si no me equivoco, no eran mas diez los desarrolladores que trabajaban en vBulletin y sus productos agregados (blog, galerias, tracker). Programadores, dentro de esos diez. No era el software mas precioso recien salido del empaque, pero era tan robusto que el trabajar en el diseño era algo que se hacia sin pensar, sabiendo que lo que tenias iba a soportar lo que fuera.
+
+Hoy IB suma a toda su compañia, decenas de programadores, lideres de proyecto, diseñadores, soporte pagado (antes algunos eran usuarios de vB.com y vB.org... trabajando de soporte por amor al arte), y un sin fin de otros cargos, y cada ciertas semanas vuelve a meter nuevos personajes, mas cargos, intermedios entre programadores y soporte, o asistentes de programadores, lider del lider de proyecto... ¿y el producto?, ¿vBulletin... en que esta?.
+
+Progresos hay, claro. Si hay cien huevones trabajando en una misma idea, algo nuevo tiene que salir. Por mucho que todos los chimpances se rasquen el culo y se huelan los dedos, siempre hay comida durante el dia; de algun lado aparece. Claro que IB "se mueve".
+
+Pero ahora vBulletin se mueve por IB... para IB.
+
+Ya no es un producto confiable. Ya no es ese espartano cabron pateando los culos de sus competidores como lo hacia entre los años dos mil al dos mil cuatro, dos mil cinco.
+
+**La calidad del vBulletin de hoy, el de IB, esta muy por debajo de los tobillos de lo que fue la calidad y elegancia de desarrollo del vBulletin de Jelsoft.**
+
+Asi es que nos vamos. Nos alejamos del alero de vBulletin.
+
+Se agradece a Jelsoft, los originales, los "clasicos", todo el trabajo que pusieron en el producto. Logre aprender montones con ustedes, y hicimos grandes cosas en nuestro sitio gracias al software que desarrollaron. No puedo estar mas conforme, satisfecho y agradecido con lo que nos entregaron hasta la version 3.7 de vBulletin.
+Pero hoy a vBulletin lo sobrepasa su reputacion pasada, con creces, y no sirve si se trata de seguir avanzando seguro.
+vBulletin era un excelente software.
+
+**¿Quien nos recibe?.**
+
+Invision Board. ElAntro (Antronio) se cambia a Invision. El software que durante años estuvo a la sombra de vBulletin, que incluso con su renovacion cuando entro a la version 2.x nos hizo dudar a muchos de los que estabamos del lado de Jelsoft, pero que no era lo suficientemente maduro en aquellos años.
+
+Hoy es muy superior, en todo sentido, al vBulletin de IB.
+
+Pero eso es tema para _otra lata de articulo_.
