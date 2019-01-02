@@ -18,16 +18,6 @@ github_username:   TCattd
 # Disqus comments
 disqus_shortname: itsaboutattitude
 
-# Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
-
 # Social icons and sharing options
 #
 # Social settings are used in two places:
@@ -171,6 +161,5 @@ paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-archives
 exclude:
   - "/vendor/"
