@@ -13,7 +13,7 @@
 <link rel='stylesheet' id='genericons-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
 <link rel='stylesheet' id='independent-publisher-2-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/style.css?ver=5.0.3' type='text/css' media='all' />
 <style id='independent-publisher-2-style-inline-css' type='text/css'>
-#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-20170113-095719.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
+#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-20170111-151645-1.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
 </style>
 <link rel='stylesheet' id='independent-publisher-2-block-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/css/blocks.css?ver=1.0' type='text/css' media='all' />
 <link rel='stylesheet' id='sharedaddy-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=6.9' type='text/css' media='all' />
@@ -107,21 +107,19 @@ body.custom-background { background-color: #e8eaec; }
 										<div class="widget widget_categories">
 						<h2 class="widget-title">Most Used Categories</h2>
 						<ul>
-							<li class="cat-item cat-item-19"><a href="https://actitud.xyz/blog/category/personal/" >Personal</a> (13)
+							<li class="cat-item cat-item-19"><a href="https://actitud.xyz/blog/category/personal/" >Personal</a> (20)
 </li>
 	<li class="cat-item cat-item-18"><a href="https://actitud.xyz/blog/category/venta/" >Venta</a> (12)
 </li>
-	<li class="cat-item cat-item-1"><a href="https://actitud.xyz/blog/category/uncategorized/" >Uncategorized</a> (11)
+	<li class="cat-item cat-item-6"><a href="https://actitud.xyz/blog/category/tecnologia/" >Tecnología</a> (11)
 </li>
-	<li class="cat-item cat-item-6"><a href="https://actitud.xyz/blog/category/tecnologia/" >Tecnología</a> (9)
+	<li class="cat-item cat-item-15"><a href="https://actitud.xyz/blog/category/seguridad/" >Seguridad</a> (7)
 </li>
 	<li class="cat-item cat-item-16"><a href="https://actitud.xyz/blog/category/pensamientos/" >Pensamientos</a> (7)
 </li>
 	<li class="cat-item cat-item-20"><a href="https://actitud.xyz/blog/category/espiritualidad/" >Espiritualidad</a> (7)
 </li>
-	<li class="cat-item cat-item-15"><a href="https://actitud.xyz/blog/category/seguridad/" >Seguridad</a> (5)
-</li>
-	<li class="cat-item cat-item-62"><a href="https://actitud.xyz/blog/category/desarrollo/" >Desarrollo</a> (2)
+	<li class="cat-item cat-item-62"><a href="https://actitud.xyz/blog/category/desarrollo/" >Desarrollo</a> (4)
 </li>
 	<li class="cat-item cat-item-7"><a href="https://actitud.xyz/blog/category/ciencia/" >Ciencia</a> (1)
 </li>
