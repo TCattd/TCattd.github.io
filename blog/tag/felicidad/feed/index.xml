@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>felicidad &#8211; It&#039;s about actitud.xyz</title>
+	<atom:link href="https://actitud.xyz/blog/tag/felicidad/feed/" rel="self" type="application/rss+xml" />
+	<link>https://actitud.xyz/blog/</link>
+	<description></description>
+	<lastBuildDate>Fri, 11 Jan 2019 20:04:40 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.3</generator>
+
+<image>
+	<url>https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-sunyata-150x150.png</url>
+	<title>felicidad &#8211; It&#039;s about actitud.xyz</title>
+	<link>https://actitud.xyz/blog/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>El honor más alto que tengo para ofrecer este día, te lo vengo a entregar</title>
+		<link>https://actitud.xyz/blog/2014/02/07/el-honor-mas-alto-que-tengo-para-ofrecer-este-dia-te-lo-vengo-a-entregar/</link>
+		<comments>https://actitud.xyz/blog/2014/02/07/el-honor-mas-alto-que-tengo-para-ofrecer-este-dia-te-lo-vengo-a-entregar/#respond</comments>
+		<pubDate>Fri, 07 Feb 2014 20:31:24 +0000</pubDate>
+		<dc:creator><![CDATA[Esteban]]></dc:creator>
+				<category><![CDATA[Pensamientos]]></category>
+		<category><![CDATA[felicidad]]></category>
+		<category><![CDATA[vida]]></category>
+
+		<guid isPermaLink="false">http://blog.actitud.xyz/?p=321</guid>
+		<description><![CDATA[Gracias por la feliz aventura, Coso :*]]></description>
+		<wfw:commentRss>https://actitud.xyz/blog/2014/02/07/el-honor-mas-alto-que-tengo-para-ofrecer-este-dia-te-lo-vengo-a-entregar/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
