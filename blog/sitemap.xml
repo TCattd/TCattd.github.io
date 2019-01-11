@@ -9,17 +9,17 @@
 <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="It&#039;s about actitud.xyz &raquo; Feed" href="https://actitud.xyz/blog/feed/" />
 <link rel="alternate" type="application/rss+xml" title="It&#039;s about actitud.xyz &raquo; Comments Feed" href="https://actitud.xyz/blog/comments/feed/" />
-<link rel='stylesheet' id='wp-block-library-css'  href='https://actitud.xyz/blog/wp-includes/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
-<link rel='stylesheet' id='genericons-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='independent-publisher-2-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/style.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://actitud.xyz/blog/inc/css/dist/block-library/style.min.css?ver=5.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='independent-publisher-2-style-css'  href='https://actitud.xyz/blog/contents/ui/theme/style.css?ver=5.0.3' type='text/css' media='all' />
 <style id='independent-publisher-2-style-inline-css' type='text/css'>
-#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-20170113-095719.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
+#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-20180207-201319.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
 </style>
-<link rel='stylesheet' id='independent-publisher-2-block-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/css/blocks.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='independent-publisher-2-block-style-css'  href='https://actitud.xyz/blog/contents/ui/theme/css/blocks.css?ver=1.0' type='text/css' media='all' />
 <link rel='stylesheet' id='sharedaddy-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=6.9' type='text/css' media='all' />
-<link rel='stylesheet' id='social-logos-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all' />
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='stylesheet' id='social-logos-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/inc/social-logos/social-logos.min.css?ver=1' type='text/css' media='all' />
+<script type='text/javascript' src='https://actitud.xyz/blog/inc/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://actitud.xyz/blog/inc/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
 <link rel='https://api.w.org/' href='https://actitud.xyz/blog/wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://actitud.xyz/blog/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 5.0.3" />
@@ -245,9 +245,9 @@ body.custom-background { background-color: #e8eaec; }
 	</div><!-- #content-wrapper -->
 </div><!-- #page -->
 
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/navigation.js?ver=20170317'></script>
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/independent-publisher-2.js?ver=20170406'></script>
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/skip-link-focus-fix.js?ver=20170315'></script>
+<script type='text/javascript' src='https://actitud.xyz/blog/contents/ui/theme/js/navigation.js?ver=20170317'></script>
+<script type='text/javascript' src='https://actitud.xyz/blog/contents/ui/theme/js/independent-publisher-2.js?ver=20170406'></script>
+<script type='text/javascript' src='https://actitud.xyz/blog/contents/ui/theme/js/skip-link-focus-fix.js?ver=20170315'></script>
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-500px" viewBox="0 0 24 24">
