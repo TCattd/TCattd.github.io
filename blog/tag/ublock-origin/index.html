@@ -82,28 +82,7 @@ body.custom-background { background-color: #e8eaec; }
 			<header class="entry-header">
 			<h1 class="entry-title"><a href="https://actitud.xyz/blog/2017/02/10/como-bloquear-publicidad-y-malware-en-el-hogar-capitulo-dos/" rel="bookmark">Como bloquear publicidad (y malware) en el hogar (capítulo dos)</a></h1>		</header><!-- .entry-header -->	
 	<div class="entry-content">
-		<p>Hace un poco más de un año <a href="https://blog.actitud.xyz/2016/01/bloqueo-de-publicidad-y-malware-para-cualquier-dispositivo-en-vuestro-hogar/">escribí una guía</a> de como (personalmente) bloqueo la publicidad y malware en casa utilizando mi router Asus RT-AC66U con Linux en el (TomatoUSB).</p>
-<p>Uso esa forma de bloqueo (script) desde hace tanto tiempo (y anteriormente en dos routers distintos, también con Linux en ellos), que no me percaté que una actualización de TomatoUSB (<a href="http://tomato.groov.pl/">Shibby</a>, la versión que uso acá) implementó su propio sistema de Adblock en el firmware.</p>
-<p>El método nativo de bloqueo de publicidad incluido ahora en el firmware TomatoUSB Shibby es CONSIDERABLEMENTE más amigable de configurar que el script que usaba anteriormente.</p>
-<p><a href="http://english.stackexchange.com/questions/199417/why-broke-and-not-broken-in-if-it-aint-broke-dont-fix-it">If it ain&#8217;t broke, don&#8217;t fix it</a>&#8230; dicen en el area de desarrollo en la que me desenvuelvo.</p>
-<p>De todos modos decidí desechar el bloqueo con el script de tanto años (muchas gracias universo), y activé el Adblock nativo de TomatoUSB Shibby. La verdad es que funciona muy muy bien. Y es solo clickear, activar y olvidarse.</p>
-<p>Si estaban usando <a href="https://blog.actitud.xyz/2016/01/bloqueo-de-publicidad-y-malware-para-cualquier-dispositivo-en-vuestro-hogar/">el script de la guía anterior</a>, sáquenlo. Administration -&gt; Scripts -&gt; WAN Up. Guarden las URLs de las que estaban leyendo los filtros para el archivo hosts.</p>
-<p>Ahora vayan a Advanced -&gt; Adblock. Se encontrarán con esto:</p>
-<p><a href="http://itsaboutactitud.files.wordpress.com/2017/02/tomatousb-shibby-adblock-native-1.png"><img class="aligncenter size-full wp-image-746" src="http://itsaboutactitud.files.wordpress.com/2017/02/tomatousb-shibby-adblock-native-1.png" alt="" width="991" height="532" /></a></p>
-<p>&nbsp;</p>
-<p>Allí es tan simple como activar (Enable) el servicio, darle &#8220;On&#8221; las URLs que deseen mantener activas desde las que sacarán los filtros de publicidad y malware a bloquear, añadir cualquier URL nueva que deseen utilizar para sacar filtros nuevos, y guardar los cambios al final (Save).</p>
-<p>Las URLs a bloquear deben venir en este formato desde los filtros:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
-
-0.0.0.0 example.com
-127.0.0.1 anotherexample.com
-
-</pre>
-<p>En la misma pantalla tienen dos bloques para escribir un blacklist de dominios a mano (si es que no quieren mantener su propia lista de archivo hosts en algún servidor), y un whitelist también. Este último les permite excluir del bloqueo un dominio específico, no importando si ese dominio aparece antes en alguna de las URLs de donde sacan los filtros de publicidad y malware.</p>
-<p>Una vez activado, reinicien el router (por si acaso), y <a href="http://ads-blocker.com/testing/">prueben</a>. Ojo que el caché de DNS de Google es muy persistente, y puede seguir mostrando publicidad aunque el bloqueo esté funcionando bien en el Router. Pueden reiniciar sus computadores o probar con otro navegador para asegurarse que todo este ok.</p>
-<p>Así de simple. No más publicidad, ni malware, en cualquiera de sus computadores, móviles y lo que sea que use internet en vuestras casas. Cualquier dispositivo conectado a la red de vuestra casa estará inoculado de publicidad y malware, sin necesidad de hacer nada en ese dispositivo en particular. Con una fuente de hosts decente y con actualizaciones, ni si quiera verán prerolls en sus móviles en YouTube, en un Chromecast o en un Android TV.</p>
-<p>(Como dije antes) Este bloqueo de publicidad es mucho más rápido y amigable con los recursos de sus equipos <a href="https://www.google.cl/search?q=adblock+plus+chrome+lag+slow" target="_blank">que el bloqueo que ofrece Adblock o uBlock (Origin)</a>. Es el router el que bloquea la publicidad y malware después de todo, mucho antes que ella <em>llegue</em> a vuestros equipos.</p>
-<p>Si quieren buscar un router compatible con TomatoUSB Shibby, revisen la <a href="http://tomato.groov.pl/?page_id=164">página de descargas del firmware</a>, y verifiquen los modelos de router para los cuales existe el firmware. Luego busquen en linea. Google es vuestro amigo (dicen).</p>
+		<p>Hace un poco más de un año escribí una guía de como (personalmente) bloqueo la publicidad y malware en casa utilizando mi router Asus RT-AC66U con Linux en el (TomatoUSB). Uso esa forma de bloqueo (script) desde hace tanto tiempo (y anteriormente en dos routers distintos, también con Linux en ellos), que no me percaté &hellip; <a href="https://actitud.xyz/blog/2017/02/10/como-bloquear-publicidad-y-malware-en-el-hogar-capitulo-dos/" class="more-link">Continue reading <span class="screen-reader-text">Como bloquear publicidad (y malware) en el hogar (capítulo dos)</span> <span class="meta-nav">&rarr;</span></a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
@@ -144,52 +123,6 @@ body.custom-background { background-color: #e8eaec; }
 	</div><!-- #content-wrapper -->
 </div><!-- #page -->
 
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script>
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.9b'></script>
-<script type='text/javascript'>
-	(function(){
-		var corecss = document.createElement('link');
-		var themecss = document.createElement('link');
-		var corecssurl = "https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
-		if ( corecss.setAttribute ) {
-				corecss.setAttribute( "rel", "stylesheet" );
-				corecss.setAttribute( "type", "text/css" );
-				corecss.setAttribute( "href", corecssurl );
-		} else {
-				corecss.rel = "stylesheet";
-				corecss.href = corecssurl;
-		}
-		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
-		var themecssurl = "https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeRDark.css?ver=3.0.9b";
-		if ( themecss.setAttribute ) {
-				themecss.setAttribute( "rel", "stylesheet" );
-				themecss.setAttribute( "type", "text/css" );
-				themecss.setAttribute( "href", themecssurl );
-		} else {
-				themecss.rel = "stylesheet";
-				themecss.href = themecssurl;
-		}
-		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
-		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
-	})();
-	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
-	SyntaxHighlighter.config.strings.help = '?';
-	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
-	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
-	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
-	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
-	SyntaxHighlighter.defaults['toolbar'] = false;
-	SyntaxHighlighter.all();
-
-	// Infinite scroll support
-	if ( typeof( jQuery ) !== 'undefined' ) {
-		jQuery( function( $ ) {
-			$( document.body ).on( 'post-load', function() {
-				SyntaxHighlighter.highlight();
-			} );
-		} );
-	}
-</script>
 <script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/navigation.js?ver=20170317'></script>
 <script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/independent-publisher-2.js?ver=20170406'></script>
 <script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/skip-link-focus-fix.js?ver=20170315'></script>

@@ -14,7 +14,7 @@
 <link rel='stylesheet' id='genericons-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
 <link rel='stylesheet' id='independent-publisher-2-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/style.css?ver=5.0.3' type='text/css' media='all' />
 <style id='independent-publisher-2-style-inline-css' type='text/css'>
-#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-20170111-131837.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
+#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-dsc02185.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
 </style>
 <link rel='stylesheet' id='independent-publisher-2-block-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/css/blocks.css?ver=1.0' type='text/css' media='all' />
 <link rel='stylesheet' id='sharedaddy-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=6.9' type='text/css' media='all' />
@@ -82,28 +82,7 @@ body.custom-background { background-color: #e8eaec; }
 			<header class="entry-header">
 			<h1 class="entry-title"><a href="https://actitud.xyz/blog/2017/02/10/como-bloquear-publicidad-y-malware-en-el-hogar-capitulo-dos/" rel="bookmark">Como bloquear publicidad (y malware) en el hogar (capítulo dos)</a></h1>		</header><!-- .entry-header -->	
 	<div class="entry-content">
-		<p>Hace un poco más de un año <a href="https://blog.actitud.xyz/2016/01/bloqueo-de-publicidad-y-malware-para-cualquier-dispositivo-en-vuestro-hogar/">escribí una guía</a> de como (personalmente) bloqueo la publicidad y malware en casa utilizando mi router Asus RT-AC66U con Linux en el (TomatoUSB).</p>
-<p>Uso esa forma de bloqueo (script) desde hace tanto tiempo (y anteriormente en dos routers distintos, también con Linux en ellos), que no me percaté que una actualización de TomatoUSB (<a href="http://tomato.groov.pl/">Shibby</a>, la versión que uso acá) implementó su propio sistema de Adblock en el firmware.</p>
-<p>El método nativo de bloqueo de publicidad incluido ahora en el firmware TomatoUSB Shibby es CONSIDERABLEMENTE más amigable de configurar que el script que usaba anteriormente.</p>
-<p><a href="http://english.stackexchange.com/questions/199417/why-broke-and-not-broken-in-if-it-aint-broke-dont-fix-it">If it ain&#8217;t broke, don&#8217;t fix it</a>&#8230; dicen en el area de desarrollo en la que me desenvuelvo.</p>
-<p>De todos modos decidí desechar el bloqueo con el script de tanto años (muchas gracias universo), y activé el Adblock nativo de TomatoUSB Shibby. La verdad es que funciona muy muy bien. Y es solo clickear, activar y olvidarse.</p>
-<p>Si estaban usando <a href="https://blog.actitud.xyz/2016/01/bloqueo-de-publicidad-y-malware-para-cualquier-dispositivo-en-vuestro-hogar/">el script de la guía anterior</a>, sáquenlo. Administration -&gt; Scripts -&gt; WAN Up. Guarden las URLs de las que estaban leyendo los filtros para el archivo hosts.</p>
-<p>Ahora vayan a Advanced -&gt; Adblock. Se encontrarán con esto:</p>
-<p><a href="http://itsaboutactitud.files.wordpress.com/2017/02/tomatousb-shibby-adblock-native-1.png"><img class="aligncenter size-full wp-image-746" src="http://itsaboutactitud.files.wordpress.com/2017/02/tomatousb-shibby-adblock-native-1.png" alt="" width="991" height="532" /></a></p>
-<p>&nbsp;</p>
-<p>Allí es tan simple como activar (Enable) el servicio, darle &#8220;On&#8221; las URLs que deseen mantener activas desde las que sacarán los filtros de publicidad y malware a bloquear, añadir cualquier URL nueva que deseen utilizar para sacar filtros nuevos, y guardar los cambios al final (Save).</p>
-<p>Las URLs a bloquear deben venir en este formato desde los filtros:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
-
-0.0.0.0 example.com
-127.0.0.1 anotherexample.com
-
-</pre>
-<p>En la misma pantalla tienen dos bloques para escribir un blacklist de dominios a mano (si es que no quieren mantener su propia lista de archivo hosts en algún servidor), y un whitelist también. Este último les permite excluir del bloqueo un dominio específico, no importando si ese dominio aparece antes en alguna de las URLs de donde sacan los filtros de publicidad y malware.</p>
-<p>Una vez activado, reinicien el router (por si acaso), y <a href="http://ads-blocker.com/testing/">prueben</a>. Ojo que el caché de DNS de Google es muy persistente, y puede seguir mostrando publicidad aunque el bloqueo esté funcionando bien en el Router. Pueden reiniciar sus computadores o probar con otro navegador para asegurarse que todo este ok.</p>
-<p>Así de simple. No más publicidad, ni malware, en cualquiera de sus computadores, móviles y lo que sea que use internet en vuestras casas. Cualquier dispositivo conectado a la red de vuestra casa estará inoculado de publicidad y malware, sin necesidad de hacer nada en ese dispositivo en particular. Con una fuente de hosts decente y con actualizaciones, ni si quiera verán prerolls en sus móviles en YouTube, en un Chromecast o en un Android TV.</p>
-<p>(Como dije antes) Este bloqueo de publicidad es mucho más rápido y amigable con los recursos de sus equipos <a href="https://www.google.cl/search?q=adblock+plus+chrome+lag+slow" target="_blank">que el bloqueo que ofrece Adblock o uBlock (Origin)</a>. Es el router el que bloquea la publicidad y malware después de todo, mucho antes que ella <em>llegue</em> a vuestros equipos.</p>
-<p>Si quieren buscar un router compatible con TomatoUSB Shibby, revisen la <a href="http://tomato.groov.pl/?page_id=164">página de descargas del firmware</a>, y verifiquen los modelos de router para los cuales existe el firmware. Luego busquen en linea. Google es vuestro amigo (dicen).</p>
+		<p>Hace un poco más de un año escribí una guía de como (personalmente) bloqueo la publicidad y malware en casa utilizando mi router Asus RT-AC66U con Linux en el (TomatoUSB). Uso esa forma de bloqueo (script) desde hace tanto tiempo (y anteriormente en dos routers distintos, también con Linux en ellos), que no me percaté &hellip; <a href="https://actitud.xyz/blog/2017/02/10/como-bloquear-publicidad-y-malware-en-el-hogar-capitulo-dos/" class="more-link">Continue reading <span class="screen-reader-text">Como bloquear publicidad (y malware) en el hogar (capítulo dos)</span> <span class="meta-nav">&rarr;</span></a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
@@ -129,208 +108,7 @@ body.custom-background { background-color: #e8eaec; }
 			<header class="entry-header">
 			<h1 class="entry-title"><a href="https://actitud.xyz/blog/2016/01/08/bloqueo-de-publicidad-y-malware-para-cualquier-dispositivo-en-vuestro-hogar/" rel="bookmark">Bloqueo de publicidad (y malware) para cualquier dispositivo en vuestro hogar</a></h1>		</header><!-- .entry-header -->	
 	<div class="entry-content">
-		<p style="padding-left:30px;">Actualización 10 Febrero 2017: Existe <a href="https://blog.actitud.xyz/?p=748">un nuevo artículo</a> sobre el tema aquí expuesto, con un proceso mucho más sencillo para habilitar el bloqueo de publicidad y malware en casa. <a href="https://blog.actitud.xyz/?p=748">Revisar por acá</a>, por favor.</p>
-<p style="padding-left:30px;">A continuación se deja el artículo antiguo como referencia.</p>
-<p><strong>A.k.a. «<em>Adblock</em> para cualquier dispositivo en vuestro hogar»</strong></p>
-<p>Desde hace años suelo comprar mis routers con una idea primordial en mente: meterles Linux.</p>
-<p>Después de <em>vitrinear</em> en linea y averiguar bien si tienen soporte para firmwares alternativos, y luego de comprado, el ritual es el mismo: flashear Linux en el router. DD-WRT, Open-WRT, Gargoyle o TomatoUSB. El que sea compatible con el modelo comprado.</p>
-<p style="text-align:center;"><img class="aligncenter size-full wp-image-653" src="http://itsaboutactitud.files.wordpress.com/2016/01/flash-all-the-things.jpg" alt="flash-all-the-things" width="400" height="300" /></p>
-<p>Los firmwares alternativos, como los mencionados anteriormente, tienen características muy buenas (y mejores) versus el software restringido que normalmente traen de fábrica. Pueden, entre otras cosas, limitar ancho de banda entre usuarios, obtener un mejor manejo del ancho de banda con un buen QoS, servicio de impresora compartida, un NAS compartido, quotas de navegación diaria o mensual, estadísticas de consumo de ancho de banda, conexión directa a VPN, restricciones de acceso para clientes específicos en base a ips/hosts/layer7 y hasta un servidor web o de torrent si quieres. Claro, dependiendo del modelo de router; esto porque la cpu y memoria disponible varía en c/u y por lo mismo no todos pueden ofrecer el set completo de características que entregan estos firmwares basados en Linux.</p>
-<p>No les voy a explicar el detalle de todo lo extra que ofrecen. Pueden buscar ustedes mismos si sienten curiosidad.</p>
-<p>Vengo a mostrarles un uso que le doy al router de turno en casa hace mucho tiempo (años) y que había olvidado compartir con ustedes antes: el bloqueo de publicidad (y malware) en Internet para todo dispositivo conectado a la red en el hogar.</p>
-<p>Uso un router Asus RT-N66U aquí en casa (hace un par de años ya; router muy estable y fiel). Es potente, tiene un buen procesador, suficiente memoria y almacenamiento. Es dual band (WiFi 2.4ghz y 5ghz). Dos puertos USB para meter lo que quieras; impresora, un modem de datos, o un HDD como NAS para que lo puedas consumir desde diferentes PC o con un media player (para películas y otros) como Kodi en un Nexus Player. Muy cómodo y versátil.</p>
-<p>Si tienes Linux en el router, abres la posibilidad de hacer todo lo que haces con un servidor/computador tradicional gracias a esto. Por lo mismo, esta guía podría servir para routers corriendo DD-WRT, Open-WRT o Gargoyle. En mi caso, eso si, este Asus Dark Knight RT-N66U está corriendo <a href="http://tomato.groov.pl/?page_id=164" target="_blank" rel="noopener">Tomato by Shibby</a>.</p>
-<p>Esta guía también funciona para un Asus RT-AC66U. Probado (marzo 2016). Luego de instalar Tomato Shibby en un RT-AC66U, el proceso de configurar el bloqueo de publicidad es exactamente el mismo.</p>
-<h2>¿Cómo instalar Tomato en un Asus RT-N66U y en un Asus RT-AC66U?</h2>
-<p>Tampoco lo voy a explicar. No en detalle. La verdad es que hay guías muy buenas y un video completo del proceso. Puedes seguir <a href="https://gist.github.com/joshenders/3941269" target="_blank" rel="noopener">esta guía escrita en un gist</a> o bien puedes <a href="https://www.youtube.com/watch?v=Sq2IpjAXvds" target="_blank" rel="noopener">mirar este video</a> donde repasan todo el proceso, en detalle. Acá tienen <a href="https://www.youtube.com/watch?v=1UkoZ-YQz7c" target="_blank" rel="noopener">otro video más</a>. Para los RT-AC66U, <a href="https://www.youtube.com/watch?v=oELltKbaJ4E" target="_blank" rel="noopener">vean este video</a>. En realidad, el proceso es el mismo para los N66U y el AC66U, simplemente cambia el archivo que van a flashear, la versión de Tomato Shibby, por razones obvias.</p>
-<h2>Ya tienes Tomato corriendo en tu router (el que sea). ¿Como aplicar Adblock a nivel del router?.</h2>
-<p>Es muy sencillo. Hay diferentes implementaciones (scripts) que pueden correr y hacer un trabajo similar. Personalmente he decantado por este: <a href="http://www.linksysinfo.org/index.php?threads/all-u-need-ad-blocking.33191/" target="_blank" rel="noopener">ALL-U-NEED Ad Blocking</a>.</p>
-<p>Primero, abre la interfaz web del router, generalmente en http://192.168.1.1/</p>
-<p>Ve a &#8220;Administration&#8221; y luego a &#8220;Scripts&#8221;. Ahí abre la pestaña &#8220;WAN Up&#8221;.</p>
-<p>Pega el script de All-U-Need Ad Blocking dentro del cuadro, guarda los cambios (abajo) y reinicia el router.</p>
-<p style="text-align:center;"><a href="http://itsaboutactitud.files.wordpress.com/2016/01/rt-n66u-adblock.png" rel="attachment wp-att-649"><img class="aligncenter size-full wp-image-649" src="http://itsaboutactitud.files.wordpress.com/2016/01/rt-n66u-adblock.png" alt="RT-N66U-adblock" width="994" height="926" /></a></p>
-<p>Dejo un respaldo del script acá, por si acaso:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
-sleep 10
-
-ADB=&quot;/tmp/ADBLOCK.sh&quot;
-{
-cat &lt;&lt;'ENDF' &gt;$ADB
-#!/bin/sh
-
-OPTIMISE=&quot;Y&quot;
-GETS=&quot;1 2 3 4&quot;
-TRIM_BEGIN=3
-S1=&quot;http://pgl.yoyo.org/as/serverlist.php?hostformat=nohtml&quot;  #44K
-S2=&quot;http://mirror1.malwaredomains.com/files/justdomains&quot;    #189K
-S3=&quot;http://www.malwaredomainlist.com/hostslist/hosts.txt&quot;   #97K
-S4=&quot;http://winhelp2002.mvps.org/hosts.txt&quot;              #620K
-S5=&quot;http://hosts-file.net/hphosts-partial.asp&quot;              #460K
-S6=&quot;http://hostsfile.mine.nu/Hosts&quot;                         #2641K
-S7=&quot;http://support.it-mate.co.uk/downloads/hosts.txt&quot;       #3851K
-
-USEWHITELIST=&quot;Y&quot; # N/Y/R for remote
-WURL=&quot;http://example.com/whitelist.txt&quot;
-WHITE=&quot;intel.com&quot;
-BLACK=&quot;&quot;
-
-USEPIXELSERV=&quot;N&quot;
-PXL_IP=192.168.1.2
-PXL_EXE=&quot;/tmp/pixelserv&quot;
-PXL_URL=&quot;http://example.com/pixelserv&quot;
-
-UPLOAD=&quot;N&quot;
-FTP_SERVER=&quot;example.com&quot;
-FTP_USER=&quot;&quot;
-FTP_PASS=&quot;&quot;
-FTP_PORT=21
-FTP_PATH=&quot;/gen&quot;
-
-ADD_CONF=&quot;N&quot;
-USEHOSTS=&quot;N&quot;
-ROUTER=&quot;Y&quot;
-
-NIP=&quot;0.0.0.0&quot;
-
-ENDF
-}
-
-UPDATE=&quot;Y&quot;
-AUP() {
-if [[ &quot;$UPDATE&quot; == &quot;Y&quot; ]] ; then
-if [[ &quot;$(cru l | grep AdUpd | cut -d '#' -f2)&quot; != &quot;AdUpd&quot; ]] ; then
-cru a AdUpd &quot;0 4 * * * $ADB&quot;
-fi
-fi
-}
-
-#### DO NOT EDIT BELOW ####
-
-b64=&quot;openssl enc -base64 -d&quot;
-[[ &quot;$(echo WQ==|$b64)&quot; != &quot;Y&quot; ]] &amp;&amp; b64=&quot;b64&quot; 
-
-b64(){
-awk 'BEGIN{b64=&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/&quot;}
-{for(i=1;i&lt;=length($0);i++){c=index(b64,substr($0,i,1));if(c--)
-for(b=0;b&lt;6;b++){o=o*2+int(c/32);c=(c*2)%64;if(++obc==8){if(o)
-{printf&quot;%c&quot;,o}else{system(&quot;echo -en &quot;&#092;&#048;&quot;&quot;)}obc=o=0}}}}';}
-
-{
-cat &lt;&lt;'ENDF'| $b64 |gunzip &gt;&gt;$ADB
-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
-AocMj8rT81cK0v4De76CG9wPAAA=
-ENDF
-}
-
-chmod 775 $ADB
-$ADB
-AUP
-</pre>
-<p>Eso es todo. En serio.</p>
-<p>Ahora disfruta de una navegación sin publicidad en cualquier dispositivo conectado a Internet a través de tu router, incluidos media-centers, smart-tv, fonos/tablets con Android e iOS, computadores, notebooks, consolas, etc.</p>
-<p>Vamos al detalle, por si quieren manejar en detalle el bloqueo.</p>
-<h2>¿Cómo configurar el script?</h2>
-<p><strong>OPTIMISE=&#8221;Y&#8221;</strong><br />
-Acepta los valores Y o N. Yes y No. Al activarlo (Y) el script removerá los hosts duplicados desde las fuentes, antes de aplicar el bloqueo. Útil por si cargan múltiples fuentes de archivos hosts con dominios a bloquear.</p>
-<p><strong>GETS=&#8221;1 2 3 4 5 6&#8243;</strong><br />
-Le indica que fuentes debe leer. Son números separados por espacios. Las fuentes las definimos luego.</p>
-<p><strong>TRIM_BEGIN=3</strong><br />
-Cada fuente debe tener un formato específico para este script. El formato es similar a esto:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
-
-dominio1.com
-dominio2.com
-otrodominio.cl
-masdominios.xyz
-etc.io
-
-</pre>
-<p>Sin embargo hay archivos hosts pre-hechos en linea, pero que vienen en el formato:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
-
-127.0.0.1 dominio1.com
-127.0.0.1 dominio2.com
-0.0.0.0 otrodominio.cl
-0.0.0.0 masdominios.xyz
-0.0.0.0 etc.io
-
-</pre>
-<p>Ese formato permite aplicar ese listado directamente en el archivo hosts de un computador (C:WindowsSystem32driversetchosts o /etc/hosts en Linux y OSX). Pero nosotros no queremos configurar cada equipo por si solo (ni hablar de equipos que no sean computadores, sin este manejo de hosts nativo). Este formato que no sirve para este script.</p>
-<p>Ahí entra en juego la configuración TRIM_BEGIN. Al definir TRIM_BEGIN=3, le dices que desde la fuente 3 hasta el final, debe adaptar el formato de los hosts y dejar solo los dominios a bloquear.</p>
-<p>Entonces, por ejemplo, <a href="http://pgl.yoyo.org/as/serverlist.php?hostformat=nohtml" target="_blank" rel="noopener">esta lista</a> no necesita formato para este script, pero <a href="http://www.malwaredomainlist.com/hostslist/hosts.txt" target="_blank" rel="noopener">esta otra lista</a> si necesita formato. Simple. Debes tenerlo en mente para colocar primero las fuentes con el formato necesario, y finalmente las fuentes que requieran adaptar el formato.</p>
-<p><strong>S1 al SX</strong><br />
-Las fuentes se definen como S (source) seguido de un número. Así:</p>
-<pre class="brush: plain; title: ; notranslate" title="">
-
-S1=&quot;http://dominio.tld/dominios.txt&quot;
-S2=&quot;http://dominio.tld/hosts.txt&quot;
-
-</pre>
-<p>Pueden colocar cuantas fuentes quieran. Pero cuidado: cada fuente, mientras más grande es, más pesado vuelve el proceso de este script, más memoria se consume al momento de procesar (al iniciar el router) y el script puede terminar simplemente no ejecutándose. Prueben con dos o tres fuentes. No necesitan definir decenas. Escojan un archivo de fuentes (recuerden si necesita aplicársele TRIM_BEGIN o no) y quédense con el.</p>
-<p>Pueden crear su propio archivo de hosts y subirlo a algún lado, y decirle al script que lo descargue. Así lo hago acá cuando encuentro publicidad que se salta los hosts que ya tengo aplicados.</p>
-<p><strong>USEWHITELIST</strong><br />
-Este set de settings (seguido de USEWHITELIST) les permite especificar urls que no quieren bloquear. En caso que alguna lista de bloqueo cargada antes bloquee un servicio que ustedes necesitan (porque trabajan en publicidad o porque les gusta ver algún banner), pueden añadirlo en la lista blanca.</p>
-<p>Un dominio por linea, tanto en el WHITE como en el BLACK (si, pueden añadir dominios en la lista negra igual).</p>
-<p>Y para si, N para no, R para remoto. Si usan remoto, deben añadir una url en WURL donde suban una lista de dominios (uno por linea) que desean que nunca sean bloqueados, no importando si están en una lista de dominios de las fuentes anteriores.</p>
-<p><strong>USEPIXELSERV</strong><br />
-Les permite servir un pixel vacío en vez de bloquear la conexión completa. Algunas aplicaciones o publicidad en general se molestan cuando no pueden llegar a la publicidad que estaban pidiendo, y en vez de dejar de molestar, joroban al servidor volviendo a pedir una y otra vez la publicidad, sin detenerse. Esto puede resultar en un consumo de cpu excesivo (de nuevo, en el caso de algunas Apps, por ejemplo). Algunas web en cambio te bloquean si tu les bloqueas la publicidad. Al servir un pixel transparente, el bloqueo continúa funcionando (mostrando ese pixel transparente) y el app o sitio web nunca tiene idea la publicidad ha sido bloqueada.</p>
-<p>Revisen como configurar <a href="http://proxytunnel.sourceforge.net/pixelserv.php" target="_blank" rel="noopener">Pixelserv</a> en el tema en <a href="http://www.linksysinfo.org/index.php?threads/all-u-need-ad-blocking.33191/" target="_blank" rel="noopener">linksysinfo</a>.</p>
-<p>No es obligatorio. No se calienten la cabeza.</p>
-<p><strong>UPLOAD</strong><br />
-Permite subir el mix de dominios bloqueados, ya procesados, a un servidor. Luego pueden decirle al router que use solo ese resultado como archivo para buscar dominios a bloquear. Es más rápido de aplicar al iniciar el router, pero no necesario. Sin optimización, dicen, el script puede demorar hasta 6 minutos en terminar de procesar los hosts para iniciar el bloqueo de dominios una vez que lo reinician (sobre todo si usan DNS Cache Poisoning, luego más sobre esto); el router sigue funcionando antes de esos 6 minutos, el bloqueo de dominios es el que demora en hacer efecto. Si no les molesta ese delay, no hay problema con ignorar esta configuración.</p>
-<p>Yo no la uso.</p>
-<p>Revisen como configurarlo en el tema en <a href="http://www.linksysinfo.org/index.php?threads/all-u-need-ad-blocking.33191/" target="_blank" rel="noopener">linksysinfo</a>.</p>
-<p><strong>ADD_CONF</strong><br />
-Lean sobre eso en <a href="http://www.linksysinfo.org/index.php?threads/all-u-need-ad-blocking.33191/" target="_blank" rel="noopener">linksysinfo</a>. No les daré detalles acá.</p>
-<p>Normalmente no necesitan cambiar esto.</p>
-<p><strong>UPDATE</strong><br />
-Auto-actualiza desde las fuentes el bloqueo de dominios, todos los días a las 4 de la madrugada. Recomendado dejarlo en Y.</p>
-<p><strong>USEHOSTS</strong><br />
-Acepta Y para si, N para no.</p>
-<p>Al usar Y, el router bloqueará los dominios como si fuera un archivo hosts. Al usar N, el router usará la técnica DNS Cache Poisoning para bloquear los dominios.</p>
-<p>La diferencia es sencilla. El bloqueo por hosts es limitado al dominio en que se usa y no todos sus subdominios, en cambio el DNS Cache Poisoning afecta a todo el dominio y sus subdominios.</p>
-<p>Por ejemplo, si tienen bloqueado dominio.com y <strong>ad1</strong>.dominio.com, con el método de hosts, un nuevo subdominio <strong>ad2</strong>.dominio.com no sería bloqueado. En cambio, con el método DNS Cache Poisoning, basta con bloquear dominio.com para que automáticamente <strong>ad1</strong>.dominio.com, <strong>ad2</strong>.dominio.com, <strong>ad3</strong>.dominio.com y cualquier <strong>adloquesea</strong>.dominio.com sea bloqueado también.</p>
-<p>Pueden probar a ver cual les acomoda más. El creador del script recomienda dejar esta configuración en N para usar DNS Cache Poisoning. El método con el Hosts, en Y, es más rápido de inicializar para el router. Ustedes ven. Prueben y decidan.</p>
-<p>Ojo que luego de reiniciado el router, los equipos en casa se demoran en &#8220;ver&#8221; la configuración. Una vez conectados, entre que el router se toma los 6 minutos para configurar el Adblock y que los equipos actualicen su caché de dns por las nuevas propagadas por dnsmasq con el poisoning o por el bloqueo de hosts (dependiendo del método que estén usando), pueden pasar varios minutos antes que efectivamente noten la publicidad bloqueada. Esperen unos 15 minutos después de reiniciado el router antes de probar y decidir si el bloqueo está funcionando o no. Paciencia.</p>
-<h2>¿Cómo probar el bloqueo?</h2>
-<p>Ingresen (con su navegador) a cualquier sitio repleto de publicidad; desactiven Adblock Plus o uBlock Origin antes, claro. Cualquier sitio lleno de avisos, como algún diario nacional o magazine tecnológico. Es fácil darse cuenta si está funcionando o no. O entren a <a href="http://ads-blocker.com/testing/" target="_blank" rel="noopener">este test de adblock</a>; si no ven publicidad de Google dentro (Adsense) vuestro bloqueo desde el router está funcionando correctamente.</p>
-<p>Este bloqueo de publicidad es mucho más rápido y amigable con la ram de sus equipos <a href="https://www.google.cl/search?q=adblock+plus+chrome+lag+slow" target="_blank" rel="noopener">que el que ofrece Adblock o uBlock</a>. Es el router el que bloquea después de todo.</p>
-<p>Ahora cualquier dispositivo conectado a la red de vuestra casa estará inoculado de publicidad, sin necesidad de hacer nada en el dispositivo en particular. Con una fuente de hosts decente y con actualizaciones, ni si quiera prerolls en YouTube en vuestros móviles o en un Chromecast.</p>
-<p>Ah, este bloqueo también los puede salvar de muchos dominios de malware conocidos, <a href="http://www.malwaredomainlist.com/hostslist/hosts.txt" target="_blank" rel="noopener">gracias a listas como esta</a>.</p>
-<p>¿Qué tal? 🙂</p>
+		<p>Actualización 10 Febrero 2017: Existe un nuevo artículo sobre el tema aquí expuesto, con un proceso mucho más sencillo para habilitar el bloqueo de publicidad y malware en casa. Revisar por acá, por favor. A continuación se deja el artículo antiguo como referencia. A.k.a. «Adblock para cualquier dispositivo en vuestro hogar» Desde hace años suelo comprar &hellip; <a href="https://actitud.xyz/blog/2016/01/08/bloqueo-de-publicidad-y-malware-para-cualquier-dispositivo-en-vuestro-hogar/" class="more-link">Continue reading <span class="screen-reader-text">Bloqueo de publicidad (y malware) para cualquier dispositivo en vuestro hogar</span> <span class="meta-nav">&rarr;</span></a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
@@ -356,66 +134,7 @@ Acepta Y para si, N para no.</p>
 			<header class="entry-header">
 			<h1 class="entry-title"><a href="https://actitud.xyz/blog/2010/04/24/compartiendo-internet-en-casa/" rel="bookmark">Compartiendo Internet en casa</a></h1>		</header><!-- .entry-header -->	
 	<div class="entry-content">
-		<p>Compartir internet en casa puede ser un evento que puede llevar a conflictos dignos del Olimpo y sus dioses.</p>
-<p>Cuando joven (niño, adolescente) sueles lidiar con ese problema en un <acronym title="A menos que tu familia sea pudiente, y tus padres no te quieran y suplan su rol de padres regalandote lo que no te mereces o no pediste...">escenario acotado</acronym>: tienes un computador, multiples usuarios (hermanos, familia), y horas en las cuales dividir el uso de Internet. Esto sin considerar aquellos años en los que debiamos tambien descontar los tiempos en los que no podiamos ocupar la linea telefonica con nuestro modem de 56k; las horas finales para compartir Internet eran considerablemente menos.<br />
-Que peleas aquellas.</p>
-<p>Como adulto, sin embargo, y como uno que vive trabajando con estas maquinas, en casa generalmente terminamos mal acostumbrando a la familia a no tener el problema que nosotros tuvimos cuando adolescentes. Computadores sobran. Internet, tambien.</p>
-<p>El problema en este punto viene cuando tu familia, tus niños, comienzan a crecer&#8230; y se convierten en ti. Copias clonicas de tus nacientes y insipidas necesidades online de antaño.<br />
-Ellos pasan de esos usos del computador en juegos educativos, de horas de peliculas en DivX, de dias terminando los diez mil juegos de emuladores que les has instalado, a consumir Internet. Y en mala.</p>
-<p>Primero eran solo paginas web, consultas en Google buscando que mas jugar, y el abuso constante de Flash para disfrutar de las aventuras via web de sus personajes favoritos de Television. Solo challa.</p>
-<p>Pero eventualmente descubren Youtube. Y cuando crecen, y crecen con Youtube, consumen Internet&#8230; realmente.</p>
-<p>Y mientras te sientas a verlos como crecen y cambian a Lazy Town por Ben10, a Ben10 por Naruto, a Naruto por Two and a Half Men, nadie te avisa (directamente) que ellos ya saben de Chats con video, Juegos en Linea, Rapidshare, jDownloader, uTorrent, eMule, Ares y todos los servicios P2P existentes.</p>
-<p>Ni una conexion de 8 megas en casa puede dar con una justa reparticion del recurso online. No justa. Para el que la paga.</p>
-<p>Un computador, un servicio que utilice Internet en general, suele preocuparse solo de el. Si puede, va a utilizar todo el ancho de banda disponible, no importando el resto de los servicios que utilicen Internet que esten en uso en esos momentos.</p>
-<p>Existe la opcion de Instalar algun programa en cada computador que hay en casa, y limitar el ancho de banda de ese computador en especial, y volverlo a la epoca de los 56k solo a el.<br />
-Si son padres, sabran que esa opcion no va a durar mucho. Tus hijos son jovenes. No saben tanto como tu no porque sean estupidos. Simplemente no tienen experiencia. Y si tu los haces enfrentarse a ese tipo de desafios a temprana edad, eventualmente tendran mas experiencia en eso que tu a esa misma edad. <em>Touché</em>.</p>
-<p>Existen entonces dos opciones bastante menos violables que la anterior: instalar un servidor en tu casa, y que aquel tarro reparta Internet a todo el resto a traves de algun router wifi o alguna otra interfaz wifi en el, o el comprar un router profesional y caro que permita hacer todo lo que se hace con ellos en un entorno empresarial (limitar ancho de banda a clientes especificos, protocolos especificos, etc).</p>
-<p>¿Otro computador?.</p>
-<p>El problema es que piensas en como repartir de forma justa&#8230; para ti&#8230; internet en casa, precisamente porque ya hay muchos computadores que requieren Internet. No quieres uno mas. No quieres la carga de otro mas consumiendo electricidad de paso. No a fin de mes. Ya basta con tu Computador, y el de tu señora, y el de tus hijos, y la consola, y el collar wifi del gato, y hasta tu refrigerador del futuro consumiendo recursos del Router y energia.<br />
-No quieres un computador mas. No quieres la preocupacion de tener que mantener el software de otro computador mas. No cuando, como en mi caso, trabajas con ellos todo el dia. El tiempo libre, el tiempo para uno, para hobbies o los ejercicios escrotales, son para dejar en paz los dedos de las manos un rato, no para ponerse a crear un datacenter en casa.</p>
-<p>El problema de los routers caros es que&#8230; son caros. Aunque en realidad, no es un problema en realidad. No para un padre geek. Aqui viene lo lindo de tanta chachara y tan circular preludio.</p>
-<p>En este mundo, siempre existira alguien mas ocioso que tu. Siempre.</p>
-<p>Ahi nace la solucion al problema: es posible instalar en un router barato de 20 mil pesos (CPL) un firmware (software) que le permita a ese router barato hacer todas las cosas que haria un router de los caros, de esos de 100 mil pesos (CPL) o mas.</p>
-<p>¿Como?.</p>
-<p><a href="http://www.dd-wrt.com/" target="_blank">DD-WRT</a>. Este firmware puede instalarse en un numero increible de routers disponibles en el mercado. Pueden ver <a href="http://www.dd-wrt.com/wiki/index.php/Supported_Devices" target="_blank">la lista de compatibilidad por aca</a>.<br />
-Existen multiples alternativas a DD-WRT. DD-WRT es solo <em>la puerta de entrada</em> al mundo de la modificacion de routers. Aunque es muy completo, util, simple y muchas veces mas que suficiente para resolver el problema del padre y su ancho de banda (<a href="http://www.youtube.com/watch?v=Hdd2ae5M-NU" target="_blank">es mio, mio, mio, mio, mio</a>).</p>
-<p>Tengo ahora un Dlink dir-300 y un Dlink dir-600. El dir-300 era el que usaba habitualmente.<br />
-Despues de jugar varios dias con el, y sus modificaciones mediante telnet, probando los distintos firmwares disponibles&#8230; open-wrt, la carcaza x-wrt, la gargoyle y una cantidad no menor de otros proyectos mas para estos routers con chipset Broadcom o Atheros&#8230; termine donde se suponia debia terminar: con el router muerto.<br />
-Descuida, no es que los fiurmwares estos sean malos. Fue mi culpa el haber matado el dir-300, por probar cosas que no se hicieron para el chipset Atheros que tiene aquel router.</p>
-<p>Asi es que me dirigi raudo al poco <em>centro</em> que queda aqui el Talca despues del Terremoto, y logre conseguir por 19 mil pesos (CPL) un Dlink dir-600.</p>
-<p>¿Por que ese?.</p>
-<p>Porque el flasheo de aquel firmware con el DD-WRT solo implica ir al sitio web de DD-WRT, ingresar al <a href="http://www.dd-wrt.com/site/support/router-database" target="_blank">router database</a>, escribir &#8220;dir-600&#8221; en el cuadro de busqueda, y clickear.<br />
-Veras el ultimo firmware &#8220;beta&#8221; disponible. Bajas el .bin (aunque existen dos, ambos son iguales; solo quedate con el <em>dir600b-revb-ddwrt-webflash.bin</em>), y luego cambias a la &#8220;beta&#8221; anterior en el menu desplegable, y descargas este otro .bin: <em><em>dlink-revb-factory-webflash.bin</em></em>.</p>
-<p>Ya estas casi listo. En serio.</p>
-<p>Abres la interfaz web del Dlink dir-600, y vas a la parte donde upgradeas el firmware del router. Ahi, primero cargas el <em>dlink-revb-factory-webflash.bin </em>(el .bin mas antiguo). Tus habilidades ninja seran puestas a prueba: este proceso puede demorar mas de 10 minutos; ¡paciencia!, ¡no se te ocurra desconectar el router!. Una vez que el router reinicie solo, veras que la interfaz web cambio: ahora ves el DD-WRT. Te va a pedir poner un nombre de usuario y password nuevo. Hazlo.<br />
-Ahora te toca ir a la parte donde actualizar el DD-WRT en esa interfaz web: Administration -&gt; Firmware Upgrade. Aqui seleccionas el otro .bin, el del beta mas nuevo: <em>dir600b-revb-ddwrt-webflash.bin</em>, lo cargas y dejas que DD-WRT se actualice, de nuevo, meditando como buen ninja y dejando que todo termine cuando corresponda.</p>
-<p>Voila.<br />
-Tienes tu propio router ultramegahyperdupercombopro, y solo gastaste 20 mil pesos (CPL).</p>
-<p>¿Que puedes hacer con el?.</p>
-<p>Mi propia dictadura virtual. Aca en casa tengo las horas de Internet contadas, repartidas. No pueden levantarse a las 6 am a conectarse antes de irse al colegio. No llega si no es hasta la tarde la conexion a los computadores que usan mis infantes y no tan infantes ya aca en casa. Tambien para las consolas y sus juegos.<br />
-No importa si llegan amigos de mis hijos con netbooks o aparatos que usen wifi: no podran usarlos aun si se saben la contraseña wifi de la red en casa.<br />
-Durante las horas donde si pueden conectarse, pero en las semanas, no hay youtube, no hay p2p, no hay juegos. Solo facebook los deja perder el tiempo. En algo lo van a peder de todos modos; preferimos el diablo conocido.<br />
-Durante el viernes y sabado, dias de lujuria y jolgorio para el ocio, pueden retomar sus series favoritas en Youtube, pueden abusar hasta cierto punto de los P2P, e incluso jugar.</p>
-<p>¿Como un P2P no puede comerte viva la red de tu casa?. Simple, miren este ejemplo de lo hermoso que funciona el <acronym title="Quality of Service">QoS</acronym> con DD-WRT:</p>
-<p>http://www.youtube.com/watch?v=LaE5evmXpS0</p>
-<p>Puedes usar el <acronym title="Quality of Service">QoS</acronym> para darle prioridad a todo lo que sea una web (http). Puedes priorizar el trafico de skype por sobre la web. Puedes darle prioridad maxima a los servicios de juegos de las consolas cuando las estas usando (xbox live, PSN, CWF Nintendo) en base a los puertos que estas usan, o mas comodo aun: darle prioridad maxima a las direcciones MAC de las interfaces wifi de esas consolas.<br />
-Puedes bajar la prioridad de los programas p2p en tu red, y tal cual como muestra el ejemplo en el video anterior, los p2p si bajaran normalmente e incluso a velocidad maxima, pero solamente cuando ninguna otra aplicacion este haciendo uso y requiera de tu ancho de banda a Internet disponible.<br />
-Puedo tranquilamente dejar descargando el torrent mas top actualmente en Torrentleech, y por la cresta madre cualquiera que sepa que es tener una cuenta en Torrentleech sabe que las velocidades que puedes alcanzar en la descarga ahi solo estan limitadas por tu propio ancho de banda de descarga&#8230; y sin detener uTorrent, ir a ver una pelicula o algun capitulo de una serie al living por streaming wifi con un media server (computador -&gt; wifi -&gt; consola -&gt; tv) sin preocuparme de que la descarga por bittorrent vaya a laguear la fluidez del video. Lo mismo para los juegos online. Ping de 20 o 30 sin problemas en shooters con servers nacionales. 100 a 150 de ping en shooters en consolas con servicios en Estados Unidos, sin importar que uTorrent este bajando al tope.<br />
-O hacia el otro lado: dejar a todo el resto en paz, pero cuando tu computador (tu MAC, tu IP, como quieras) se conecte a la red, priorizar al maximo todo lo que tu interfaz wifi/lan pida hacer, y hacerle pasar al resto las penas del Infierno y la burocracia Politica en lentitud digna de rio de manjar con caca en sus salidas a Internet&#8230; cada vez que tu requieras hacer uso de ella, automaticamente.<br />
-DD-WRT regulara y hara todo como tu le pidas que lo haga. Esa no la cuentas con tu polola o señora.</p>
-<p>En serio, es una maravilla. No se imaginan cuanto.<br />
-Lo que aqui les comento es solo una parte de lo que pueden hacer.</p>
-<p>El Dlink dir-600 esta limitado por ahora solo al DD-WRT. Esto es porque usa un chipset Ralink, muy limitado. Lo compre, de todos modos, pensando solo en dejarlo con DD-WRT, que como les comentaba, es mas que suficiente para las necesidades de muchos.</p>
-<p>Para jugar y seguir probando las otras alternativas, tengo mi Dlink dir-300, que despues de una tarde de jugar al doctor cybernetico, logre revivir. Esta vivo nuevamente despues de una ardua operacion via puerto paralelo, y coleando. Ahora esta con x-wrt, un firmware basado en open-wrt. Estos pueden ser aun MAS completos que DD-WRT.</p>
-<p>Es que aunque DD-WRT tambien esta basado en <acronym title="GNU/Linux dicen los babosos...">Linux</acronym>,  no esta pensado para que tengas que ir a una terminal de Telnet a configurarlo. DD-WRT tiene una interfaz web muy rica (en caracteristicas), aunque no tan amigable para alguien no conocedor del tema.</p>
-<p>En cambio, Open-WRT es un proyecto que tiene en mente servir solo a cerebritos GNU-eros. Open-WRT de hecho no tiene interfaz web; simplemente debes conectarte al router a traves de una terminal, y como Rambo, configurarlo a puro comando.</p>
-<p>X-WRT es una carcaza para Open-WRT. Es el mismo Open-WRT pero con una interfaz web. Eso si, que X-WRT te deje ver algo en un navegador, no significa que sea amigable. Es complejo de administrar, mas que el DD-WRT. Aunque eso te da muchas mas opciones (instalar paquetes, literalmente, como si el router fuese un computador con linux, y correrlos). Como X-WRT, hay varias mas carcazas. Una en particular que quiero nombrar aca es Gargoyle. La gracia de esta ultima es que el que la hace, la hace para que la interfaz web sea simple (amen). Es en base a Open-WRT tambien, pero permite un uso humano del Router, no mas complicado que el uso de la interfaz web de cualquier Dlink de fabrica&#8230; pero con las bondades de estas mejoras, el limite de ancho de banda, quotas de descarga por cliente a la hora/al dia/al mes, QoS y restricciones por dias/horas de la semana, e incluso hermosos graficos de cuanto ancho de banda gasta cada cliente conectado a tu red por dia/semana/mes, y graficos sobre el trafico web de los clientes, con resumenes de que sitios web visitan&#8230; con lujo de detalle.</p>
-<p>Un Router Nazi. Algo que cualquier padre adoraria.</p>
-<p>Soluciones que conocia hace bastante tiempo, pero que no habia tenido la necesidad de ejecutar, hasta hoy en dia. Hoy, donde tus peques se convierten en adultos, y pueden llegar con amigos(as), y esos amigos(as) con smartphones. Y aunque seas un cabron y los encares sin problemas para pedirles que se entuben sus descargas mientras tu intentas hacer tu trabajo, y con musica desde el fondo de sus audifonos respondan &#8220;<em>chuta, sorry tio, es que como me dijo que tenian wifi aqui, mientras esperaba me puse a descargar unas cancioncitas no mas, no lo vuelvo a hacer</em>&#8220;&#8230; siempre <acronym title="...para la bishula.">van a pasarse</acronym>, y volver a aprovecharse. Eso si&#8230; hasta que llego DD-WRT, el <em>Mister Musculo</em> de los Routers.</p>
-<p>Si quieren comprar un router con chipset Atheros como el Dlink dir-300, y quieren aventurarse a flashearlo via cable de red y telnet, una buena guia (probada por mi), con buenos detalles para no perderse y que funciona, es esta.<br />
-En realidad, pueden ir por cualquier router de la lista de compatibilidad. Aquellos estan probados que funcionan con DD-WRT, y si son con chipset Atheros o Broadcom, tambien funcionan con Open-WRT y sus derivados.</p>
-<p>Y claro, la sugerencia del dia: el Dlink dir-600 que en tiendas grandes esta alrededor de 20 mil pesos (CPL) (19 mil en la tienda de la Tonka), y tambien abunda en muchas tiendas de partes y piezas de Computadores en Santiago (donde pueden pedir en linea comodamente si son de regiones como yo)&#8230; router que aunque <acronym title="...">solamente</acronym> corre el firmware DD-WRT, es muy simple de flashear, no toma mas de 15 minutos via web y solo a punta de clicks; y el Router termina haciendo maravillas&#8230; para uno, no para los hijos. Pero ellos no importan, ¿cierto?.</p>
-<p>http://www.youtube.com/watch?v=O_gJrT8IHQM</p>
+		<p>Compartir internet en casa puede ser un evento que puede llevar a conflictos dignos del Olimpo y sus dioses. Cuando joven (niño, adolescente) sueles lidiar con ese problema en un escenario acotado: tienes un computador, multiples usuarios (hermanos, familia), y horas en las cuales dividir el uso de Internet. Esto sin considerar aquellos años en &hellip; <a href="https://actitud.xyz/blog/2010/04/24/compartiendo-internet-en-casa/" class="more-link">Continue reading <span class="screen-reader-text">Compartiendo Internet en casa</span> <span class="meta-nav">&rarr;</span></a></p>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
@@ -456,52 +175,6 @@ En realidad, pueden ir por cualquier router de la lista de compatibilidad. Aquel
 	</div><!-- #content-wrapper -->
 </div><!-- #page -->
 
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shCore.js?ver=3.0.9b'></script>
-<script type='text/javascript' src='https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/scripts/shBrushPlain.js?ver=3.0.9b'></script>
-<script type='text/javascript'>
-	(function(){
-		var corecss = document.createElement('link');
-		var themecss = document.createElement('link');
-		var corecssurl = "https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shCore.css?ver=3.0.9b";
-		if ( corecss.setAttribute ) {
-				corecss.setAttribute( "rel", "stylesheet" );
-				corecss.setAttribute( "type", "text/css" );
-				corecss.setAttribute( "href", corecssurl );
-		} else {
-				corecss.rel = "stylesheet";
-				corecss.href = corecssurl;
-		}
-		document.getElementsByTagName("head")[0].insertBefore( corecss, document.getElementById("syntaxhighlighteranchor") );
-		var themecssurl = "https://actitud.xyz/blog/wp-content/plugins/syntaxhighlighter/syntaxhighlighter3/styles/shThemeRDark.css?ver=3.0.9b";
-		if ( themecss.setAttribute ) {
-				themecss.setAttribute( "rel", "stylesheet" );
-				themecss.setAttribute( "type", "text/css" );
-				themecss.setAttribute( "href", themecssurl );
-		} else {
-				themecss.rel = "stylesheet";
-				themecss.href = themecssurl;
-		}
-		//document.getElementById("syntaxhighlighteranchor").appendChild(themecss);
-		document.getElementsByTagName("head")[0].insertBefore( themecss, document.getElementById("syntaxhighlighteranchor") );
-	})();
-	SyntaxHighlighter.config.strings.expandSource = '+ expand source';
-	SyntaxHighlighter.config.strings.help = '?';
-	SyntaxHighlighter.config.strings.alert = 'SyntaxHighlighter\n\n';
-	SyntaxHighlighter.config.strings.noBrush = 'Can\'t find brush for: ';
-	SyntaxHighlighter.config.strings.brushNotHtmlScript = 'Brush wasn\'t configured for html-script option: ';
-	SyntaxHighlighter.defaults['pad-line-numbers'] = false;
-	SyntaxHighlighter.defaults['toolbar'] = false;
-	SyntaxHighlighter.all();
-
-	// Infinite scroll support
-	if ( typeof( jQuery ) !== 'undefined' ) {
-		jQuery( function( $ ) {
-			$( document.body ).on( 'post-load', function() {
-				SyntaxHighlighter.highlight();
-			} );
-		} );
-	}
-</script>
 <script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/navigation.js?ver=20170317'></script>
 <script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/independent-publisher-2.js?ver=20170406'></script>
 <script type='text/javascript' src='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/js/skip-link-focus-fix.js?ver=20170315'></script>
