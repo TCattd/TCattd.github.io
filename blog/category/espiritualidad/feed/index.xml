@@ -14,7 +14,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	<atom:link href="https://actitud.xyz/blog/category/espiritualidad/feed/" rel="self" type="application/rss+xml" />
 	<link>https://actitud.xyz/blog/</link>
 	<description></description>
-	<lastBuildDate>Fri, 11 Jan 2019 20:04:40 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 12 Jan 2019 02:07:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -130,6 +130,20 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 		<guid isPermaLink="false">https://itsaboutactitud.wordpress.com/?p=857</guid>
 		<description><![CDATA[El hombre que tiene miedo, busca refugio en los montes, en los bosques sagrados o en los templos. Sin embargo tales refugios no sirven, pues allí donde vaya, sus pasiones y sus sufrimientos lo acompañarán]]></description>
 		<wfw:commentRss>https://actitud.xyz/blog/2013/01/24/refugio/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>All live, never on a floppy disk</title>
+		<link>https://actitud.xyz/blog/2012/09/06/all-live-never-on-a-floppy-disk/</link>
+		<comments>https://actitud.xyz/blog/2012/09/06/all-live-never-on-a-floppy-disk/#respond</comments>
+		<pubDate>Thu, 06 Sep 2012 20:00:10 +0000</pubDate>
+		<dc:creator><![CDATA[Esteban]]></dc:creator>
+				<category><![CDATA[Espiritualidad]]></category>
+		<category><![CDATA[Personal]]></category>
+
+		<guid isPermaLink="false">http://blog.actitud.xyz/?p=303</guid>
+		<description><![CDATA[Aunque trabajo en linea y mis labores requieren cierto apego de mi ser a las nuevas tecnologías, sigo siendo un amante del socializar como lo hacían nuestros padres y abuelos. He comentado antes que, fiel a aquella creencia, no mantengo un registro de mi vida online, no comparto cada cosa que hago, con fotos y &#8230; <a href="https://actitud.xyz/blog/2012/09/06/all-live-never-on-a-floppy-disk/" class="more-link">Continue reading <span class="screen-reader-text">All live, never on a floppy disk</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>https://actitud.xyz/blog/2012/09/06/all-live-never-on-a-floppy-disk/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

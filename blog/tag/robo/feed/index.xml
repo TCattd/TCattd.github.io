@@ -14,7 +14,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	<atom:link href="https://actitud.xyz/blog/tag/robo/feed/" rel="self" type="application/rss+xml" />
 	<link>https://actitud.xyz/blog/</link>
 	<description></description>
-	<lastBuildDate>Fri, 11 Jan 2019 20:04:40 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 12 Jan 2019 02:07:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -40,7 +40,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 		<category><![CDATA[wordpress]]></category>
 
 		<guid isPermaLink="false">http://blog.actitud.xyz/?p=314</guid>
-		<description><![CDATA[Encontré a una candidata (política) robando. 45 dólares.Advertencia: no me interesa la pelea izquierda-centro-derecha. No me interesan los partidos políticos y el fanatismo en general en ningún area. Trabajo desarrollando sitios y cosas en torno a la web. Mucho de ese trabajo es en torno a WordPress. Tengo una pequeña manía, cíclica: reviso el código &#8230; <a href="https://actitud.xyz/blog/2013/10/03/encontre-a-un-politico-robando-tremenda-novedad/" class="more-link">Continue reading <span class="screen-reader-text">Encontré a un político robando (¿tremenda novedad?)</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<description><![CDATA[  Encontré a una candidata (política) robando. 45 dólares.Advertencia: no me interesa la pelea izquierda-centro-derecha. No me interesan los partidos políticos y el fanatismo en general en ningún area. Trabajo desarrollando sitios y cosas en torno a la web.Mucho de ese trabajo es en torno a WordPress. Tengo una pequeña manía, cíclica: reviso el código &#8230; <a href="https://actitud.xyz/blog/2013/10/03/encontre-a-un-politico-robando-tremenda-novedad/" class="more-link">Continue reading <span class="screen-reader-text">Encontré a un político robando (¿tremenda novedad?)</span> <span class="meta-nav">&#8594;</span></a>]]></description>
 		<wfw:commentRss>https://actitud.xyz/blog/2013/10/03/encontre-a-un-politico-robando-tremenda-novedad/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>

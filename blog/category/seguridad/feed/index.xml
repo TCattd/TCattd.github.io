@@ -14,7 +14,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 	<atom:link href="https://actitud.xyz/blog/category/seguridad/feed/" rel="self" type="application/rss+xml" />
 	<link>https://actitud.xyz/blog/</link>
 	<description></description>
-	<lastBuildDate>Fri, 11 Jan 2019 20:04:40 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 12 Jan 2019 02:07:30 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -109,7 +109,7 @@ xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01
 		<category><![CDATA[respaldo]]></category>
 
 		<guid isPermaLink="false">http://blog.actitud.xyz/?p=300</guid>
-		<description><![CDATA[Hace un poco más de un año escribí respecto a como podían respaldar sus emails, Gmail específicamente (incluidas cuentas Google Apps) offline en sus computadores. Por acá está aquel artículo: https://plus.google.com/109194612351651927706/posts/HRuj12r9cy4 La solución que voy a comentar la añadí en un comentario del artículo que ya les mencioné, pero jamás lo probe.En un año pasan muchas cosas. Mi &#8230; <a href="https://actitud.xyz/blog/2013/09/05/como-respaldar-correos-desde-gmail/" class="more-link">Continue reading <span class="screen-reader-text">Como respaldar correos desde Gmail</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<description><![CDATA[Hace un poco más de un año escribí respecto a como podían respaldar sus emails, Gmail específicamente (incluidas cuentas Google Apps) offline en sus computadores. Por acá está aquel artículo:&#160;https://plus.google.com/109194612351651927706/posts/HRuj12r9cy4&#160;La solución que voy a comentar la añadí en un comentario del artículo que ya les mencioné, pero jamás lo probe.En un año pasan muchas cosas.&#160;Mi &#8230; <a href="https://actitud.xyz/blog/2013/09/05/como-respaldar-correos-desde-gmail/" class="more-link">Continue reading <span class="screen-reader-text">Como respaldar correos desde Gmail</span> <span class="meta-nav">&#8594;</span></a>]]></description>
 		<wfw:commentRss>https://actitud.xyz/blog/2013/09/05/como-respaldar-correos-desde-gmail/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>

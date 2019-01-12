@@ -15,6 +15,7 @@
 <link rel='stylesheet' id='independent-publisher-2-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/style.css?ver=5.0.3' type='text/css' media='all' />
 <style id='independent-publisher-2-style-inline-css' type='text/css'>
 #hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-cover-img-20180207-201319.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
+#hero-header { background: url("https://actitud.xyz/blog/wp-content/uploads/2013/09/gmail-backup.jpg") no-repeat center; background-size: cover; background-attachment: scroll; }
 </style>
 <link rel='stylesheet' id='independent-publisher-2-block-style-css'  href='https://actitud.xyz/blog/wp-content/themes/independent-publisher-2/css/blocks.css?ver=1.0' type='text/css' media='all' />
 <link rel='stylesheet' id='sharedaddy-css'  href='https://actitud.xyz/blog/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=6.9' type='text/css' media='all' />
@@ -48,15 +49,17 @@ body.custom-background { background-color: #e8eaec; }
 <meta property="og:type" content="article" />
 <meta property="og:title" content="Como respaldar correos desde Gmail" />
 <meta property="og:url" content="https://actitud.xyz/blog/2013/09/05/como-respaldar-correos-desde-gmail/" />
-<meta property="og:description" content="Hace un poco más de un año escribí respecto a como podían respaldar sus emails, Gmail específicamente (incluidas cuentas Google Apps) offline en sus computadores. Por acá está aquel artículo:  solu…" />
+<meta property="og:description" content="Hace un poco más de un año escribí respecto a como podían respaldar sus emails, Gmail específicamente (incluidas cuentas Google Apps) offline en sus computadores. Por acá está aquel artículo:&nbsp;…" />
 <meta property="article:published_time" content="2013-09-05T19:52:25+00:00" />
-<meta property="article:modified_time" content="2013-09-05T19:52:25+00:00" />
+<meta property="article:modified_time" content="2019-01-12T01:15:54+00:00" />
 <meta property="og:site_name" content="It&#039;s about actitud.xyz" />
-<meta property="og:image" content="https://s0.wp.com/i/blank.jpg" />
+<meta property="og:image" content="https://actitud.xyz/blog/wp-content/uploads/2013/09/gmail-backup.jpg" />
+<meta property="og:image:width" content="300" />
+<meta property="og:image:height" content="263" />
 <meta property="og:locale" content="en_US" />
 <meta name="twitter:text:title" content="Como respaldar correos desde Gmail" />
-<meta name="twitter:image" content="https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-sunyata.png" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://actitud.xyz/blog/wp-content/uploads/2013/09/gmail-backup.jpg?w=640" />
+<meta name="twitter:card" content="summary_large_image" />
 
 <!-- End Jetpack Open Graph Tags -->
 <style type="text/css" id="syntaxhighlighteranchor"></style>
@@ -106,14 +109,14 @@ body.custom-background { background-color: #e8eaec; }
 			
 			
 			<span class="published-on">
-				<time class="entry-date published updated" datetime="2013-09-05T16:52:25+00:00">2013-09-05</time>			</span>
+				<time class="entry-date published" datetime="2013-09-05T16:52:25+00:00">2013-09-05</time><time class="updated" datetime="2019-01-11T22:15:54+00:00">2019-01-11</time>			</span>
 
 			<span class="word-count">4 Minutes</span>		</div><!-- .entry-meta -->
 	
 	<div class="entry-content">
 		<div class="tG QF">Hace un poco más de un año escribí respecto a como podían respaldar sus emails, Gmail específicamente (incluidas cuentas Google Apps) offline en sus computadores.</div>
-<div class="Ct">Por acá está aquel artículo: <a class="ot-anchor aaTEdf" href="https://plus.google.com/109194612351651927706/posts/HRuj12r9cy4" target="_blank" rel="nofollow">https://plus.google.com/109194612351651927706/posts/HRuj12r9cy4</a> La solución que voy a comentar la añadí en un comentario del artículo que ya les mencioné, pero jamás lo probe.En un año pasan muchas cosas. Mi antiguo respaldo de Gmail había dejado de funcionar hace algunos meses, y flojera por delante, no había vuelto a reconfigurar todo o probar otra de las alternativas.</p>
-<p>Decidí aprovechar y cambiarme a Gmvault. Por lo que había leído cuando lo recomendé, gmvault no solo permite respaldar, si no que también soporta <i>inyectar</i> el respaldo de emails en otra cuenta gmail.<br />
+<div class="Ct">Por acá está aquel artículo:&nbsp;<a class="ot-anchor aaTEdf" href="https://plus.google.com/109194612351651927706/posts/HRuj12r9cy4" target="_blank" rel="nofollow">https://plus.google.com/109194612351651927706/posts/HRuj12r9cy4</a>&nbsp;La solución que voy a comentar la añadí en un comentario del artículo que ya les mencioné, pero jamás lo probe.En un año pasan muchas cosas.&nbsp;Mi antiguo respaldo de Gmail había dejado de funcionar hace algunos meses, y flojera por delante, no había vuelto a reconfigurar todo o probar otra de las alternativas.</p>
+<p>Decidí aprovechar y cambiarme a Gmvault.&nbsp;Por lo que había leído cuando lo recomendé, gmvault no solo permite respaldar, si no que también soporta <i>inyectar</i> el respaldo de emails en otra cuenta gmail.<br />
 Un simple:<br />
 <i>gmvault restore tunuevacuentagmail@gmail.com</i><br />
 &#8230;y tendrás tu respaldo montado en otra cuenta Gmail.<br />
@@ -127,18 +130,18 @@ En Xubuntu (Ubuntu me imagino que va a ser lo mismo o similar) es muy sencillo.<
 <p>1.- Deben tener PIP (de Python) instalado:<br />
 <i>sudo apt-get install python-pip</i></p>
 <p>2.- Instalan gmvault:<br />
-<i>sudo pip install &#8211;upgrade distribute &amp;&amp; sudo pip install gmvault</i></p>
+<i>sudo pip install &#8211;upgrade distribute &amp;&amp;&nbsp;sudo pip install gmvault</i></p>
 <p>3.- Ejecutan la primera sincronización, desde la misma terminal:<br />
-<i>gmvault sync tucuentagmail@gmail.com -d $HOME/Backups/Gmail</i><br />
+<i>gmvault sync tucuentagmail@gmail.com&nbsp;-d $HOME/Backups/Gmail</i><br />
 Esto puede tomar varias horas. Depende de la cantidad de correos que tengan en sus cuentas y el espacio que estos usen.<br />
-Cuando corran este comando, gmvault les pedirá autenticar la aplicación. Va a abrir una ventana del navegador predeterminado que tengan, y los llevará a darle permisos a gmvault con un token OAuth para que este pueda acceder a vuestro correo (aquel token se guarda en sus computadores, dentro de $HOME/.gmvault/).<br />
+Cuando corran este comando, gmvault les pedirá autenticar la aplicación. Va a abrir una ventana del navegador predeterminado que tengan, y los llevará a darle permisos a gmvault con un token&nbsp;OAuth para que este pueda acceder a vuestro correo (aquel token se guarda en sus computadores, dentro de $HOME/.gmvault/).<br />
 Esto es solo necesario la primera vez que sincronizan. Luego, con ese token que le dieron a gmvault, no molestará más con permisos para acceder.</p>
 <p>El comando<br />
-<i>gmvault sync tucuentagmail@gmail.com -d $HOME/Backups/Gmail</i><br />
+<i>gmvault sync tucuentagmail@gmail.com&nbsp;-d $HOME/Backups/Gmail</i><br />
 Le dice a gmvault que sincronice/respalde la cuenta gmail que ponen (puede ser un Google Apps también). Por default, el respaldo se guarda en:<br />
 <i>$HOME/.gmvault-db</i></p>
 <p>Si quieren cambiar esa ruta, como yo lo hice, la especifican así:<br />
-<i>-d $HOME/Backups/Gmail</i></p>
+<i>-d&nbsp;$HOME/Backups/Gmail</i></p>
 <p><b>Esperen</b> a que termine la primera sincronización.<br />
 Tomó casi cinco horas acá. Mucha paciencia.<br />
 Vayan a meditar o a matar huevones online un rato.</p>
@@ -151,11 +154,11 @@ Si quieren que corra cada una hora, cambien el /cron.daily/ por /cron.hourly/. A
 <p>Dentro del editor (mousepad en este caso) coloquen (ojo, reemplacen con sus datos y ruta del respaldo):<br />
 <i>#!/bin/sh</i><br />
 <i>sleep 30</i><br />
-<i>gmvault sync tucuentagmail@gmail.com -d $HOME/Backups/Gmail &#8211;resume</i></p>
+<i>gmvault sync tucuentagmail@gmail.com&nbsp;-d $HOME/Backups/Gmail&nbsp;&#8211;resume</i></p>
 <p>Guardan, cierran, y hacen ejecutable el archivo que recién crearon:<br />
 <i>sudo chmod uga+x /etc/cron.daily/gmvault</i></p>
 <p>Como pueden notar, despues del sleep 30 va el comando para sincronizar.<br />
-<b>Es importante</b> que al comando aquel le añadan al final un: <b>&#8211;resume</b> al final. Eso permite que el proceso de respaldo siga desde donde quedó y que no se ponga a hacer todo de cero cada vez que el cron corre.<br />
+<b>Es importante</b> que al comando aquel le añadan al final un: <b>&#8211;resume</b> al final.&nbsp;Eso permite que el proceso de respaldo siga desde donde quedó y que no se ponga a hacer todo de cero cada vez que el cron corre.<br />
 La linea del <i>sleep 30</i> está ahí simplemente por si corre el cron aquel cuando recién inician su computador, y no tienen una conexión a internet que conecte inmediatamente (la wifi acá demora en pescar). No es obligatoria.</p>
 <p>Una vez que hagan la primera sincronización, pueden añadir una linea (a su cron) como esta:<br />
 <i>gmvault sync &#8211;resume -t quick &#8211;check-db yes -d $HOME/Backups/Gmail tugmail@gmail.com</i></p>
@@ -189,7 +192,7 @@ Así de simple y bonito.</p>
 	</div><!-- .entry-auhtor -->
 			<div class="site-posted-on">
 			<strong>Published</strong>
-			<time class="entry-date published updated" datetime="2013-09-05T16:52:25+00:00">2013-09-05</time>		</div><!-- .site-posted-on -->
+			<time class="entry-date published" datetime="2013-09-05T16:52:25+00:00">2013-09-05</time><time class="updated" datetime="2019-01-11T22:15:54+00:00">2019-01-11</time>		</div><!-- .site-posted-on -->
 	</div>
 </article><!-- #post-## -->
 
