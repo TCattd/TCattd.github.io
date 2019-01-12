@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>moto g &#8211; It&#039;s about actitud.xyz</title>
+	<atom:link href="https://actitud.xyz/blog/tag/moto-g/feed/" rel="self" type="application/rss+xml" />
+	<link>https://actitud.xyz/blog/</link>
+	<description></description>
+	<lastBuildDate>Sat, 12 Jan 2019 02:07:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.3</generator>
+
+<image>
+	<url>https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-sunyata-150x150.png</url>
+	<title>moto g &#8211; It&#039;s about actitud.xyz</title>
+	<link>https://actitud.xyz/blog/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Actualizar Moto G XT1032 convertido a GPE, a Android 5.1</title>
+		<link>https://actitud.xyz/blog/2015/04/04/actualizar-moto-g-xt1032-convertido-a-gpe-a-android-5-1/</link>
+		<comments>https://actitud.xyz/blog/2015/04/04/actualizar-moto-g-xt1032-convertido-a-gpe-a-android-5-1/#comments</comments>
+		<pubDate>Sat, 04 Apr 2015 15:34:40 +0000</pubDate>
+		<dc:creator><![CDATA[Esteban]]></dc:creator>
+				<category><![CDATA[Tecnología]]></category>
+		<category><![CDATA[android]]></category>
+		<category><![CDATA[lollipop]]></category>
+		<category><![CDATA[moto g]]></category>
+		<category><![CDATA[motorola]]></category>
+		<category><![CDATA[ota]]></category>
+
+		<guid isPermaLink="false">http://blog.actitud.xyz/?p=328</guid>
+		<description><![CDATA[Publiqué esta guía en los foros de XDA Developers ayer, y quiero compartirla ahora con ustedes acá. En español. Como actualizar un Moto G convertido a GPE, a Android 5.1 Lollipop. No voy a enseñarles como convertir sus Moto G XT1032 a una edición GPE. Ya hay guías al respecto. Síganlas. El problema es que &#8230; <a href="https://actitud.xyz/blog/2015/04/04/actualizar-moto-g-xt1032-convertido-a-gpe-a-android-5-1/" class="more-link">Continue reading <span class="screen-reader-text">Actualizar Moto G XT1032 convertido a GPE, a Android 5.1</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>https://actitud.xyz/blog/2015/04/04/actualizar-moto-g-xt1032-convertido-a-gpe-a-android-5-1/feed/</wfw:commentRss>
+		<slash:comments>17</slash:comments>
+		</item>
+	</channel>
+</rss>

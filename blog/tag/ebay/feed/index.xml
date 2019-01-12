@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+
+<channel>
+	<title>ebay &#8211; It&#039;s about actitud.xyz</title>
+	<atom:link href="https://actitud.xyz/blog/tag/ebay/feed/" rel="self" type="application/rss+xml" />
+	<link>https://actitud.xyz/blog/</link>
+	<description></description>
+	<lastBuildDate>Sat, 12 Jan 2019 02:07:30 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.3</generator>
+
+<image>
+	<url>https://actitud.xyz/blog/wp-content/uploads/2019/01/cropped-sunyata-150x150.png</url>
+	<title>ebay &#8211; It&#039;s about actitud.xyz</title>
+	<link>https://actitud.xyz/blog/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Tracking directo con Correos de Chile en eBay y Aliexpress</title>
+		<link>https://actitud.xyz/blog/2014/08/28/tracking-directo-con-correos-de-chile-en-ebay-y-aliexpress/</link>
+		<comments>https://actitud.xyz/blog/2014/08/28/tracking-directo-con-correos-de-chile-en-ebay-y-aliexpress/#comments</comments>
+		<pubDate>Thu, 28 Aug 2014 12:29:03 +0000</pubDate>
+		<dc:creator><![CDATA[Esteban]]></dc:creator>
+				<category><![CDATA[Desarrollo]]></category>
+		<category><![CDATA[Tecnología]]></category>
+		<category><![CDATA[aliexpress]]></category>
+		<category><![CDATA[chile]]></category>
+		<category><![CDATA[chrome]]></category>
+		<category><![CDATA[correos]]></category>
+		<category><![CDATA[ebay]]></category>
+		<category><![CDATA[github]]></category>
+
+		<guid isPermaLink="false">http://blog.actitud.xyz/?p=370</guid>
+		<description><![CDATA[Les presento: Tracking fácil y directo con Chrome para Correos de Chile desde eBay y Aliexpress 🙂 Estaba chato de copiar-pegar el tracking en correos.cl para poder ver si un paquete entró al país o no. Así es que hice esto: http://go.attitude.cl/trackingfacil Esta extensión para Chrome añade un enlace en el historial de compras, y &#8230; <a href="https://actitud.xyz/blog/2014/08/28/tracking-directo-con-correos-de-chile-en-ebay-y-aliexpress/" class="more-link">Continue reading <span class="screen-reader-text">Tracking directo con Correos de Chile en eBay y Aliexpress</span> <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>https://actitud.xyz/blog/2014/08/28/tracking-directo-con-correos-de-chile-en-ebay-y-aliexpress/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
