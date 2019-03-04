@@ -359,7 +359,7 @@ img {
 .social-icon i {
 	font-size: 33px !important;
 	color: #0F1D2B;
-	text-shadow: 0px 0px 10px rgba(216, 232, 248, 0.9);
+	text-shadow: 0px 0px 10px rgba(216, 232, 248, 1);
 }
 .social-icon1 {
 	float: left;
