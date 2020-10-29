@@ -1870,7 +1870,7 @@ h1 + p {
 
 .name-row a {
 	display: block;
-	opacity: .5;
+	opacity: .7;
 	-webkit-transition: opacity .5s ease !important;
 	-moz-transition: opacity .5s ease !important;
 	-ms-transition: opacity .5s ease !important;
