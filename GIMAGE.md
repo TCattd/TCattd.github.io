@@ -10,7 +10,7 @@ Execute
 
 id will be in the metadata.source resp obj
 
-https://profiles.google.com/s2/photos/profile/USERID
+https://profiles.google.com/s2/photos/profile/USERID?sz=300
 http://picasaweb.google.com/data/entry/api/user/USERID?alt=json
 
 https://www.avatarapi.com
